@@ -12,10 +12,10 @@
 
 /* header section */
 .header {
-    margin: 0;
-    height: 689px;
+    margin: 0 0 150px 0;
+    /* height: 689px; */
     max-width: 100%;
-    padding: 180px 200px 0px 700px;
+    padding: 180px 200px 140px 700px;
     background-image: url('images/banner/banner1.png');
     background-repeat: no-repeat;
 }
@@ -100,25 +100,29 @@
     color: rgb(0, 255, 8);
     margin-right: 5px;
 }
+
 /* 2nd body section  */
-.bfuture{
+.bfuture {
     width: 950px;
     border: none;
     padding: 0 200px 0 200px;
     margin: 0 0 150px 0;
 }
-.bodyft{
+
+.bodyft {
     font-size: 40px;
     font-weight: 750;
     word-spacing: 10px;
     margin-bottom: 50px;
     text-align: center;
 }
-.bodyf1{
+
+.bodyf1 {
     display: flex;
     justify-content: space-between;
 }
-.bodyfli{
+
+.bodyfli {
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -128,23 +132,95 @@
     box-shadow: 0 0 50px -20px #ffb915;
     background-color: #ffffff;
 }
+
 .futureimg {
     margin: 0 auto;
     height: 93px;
     width: 93px;
 }
-.futuret{
+
+.futuret {
     margin-top: 15px;
     text-align: center;
     font-size: 23px;
     letter-spacing: 1px;
 }
-.futuret1{
+
+.futuret1 {
     margin-top: 15px;
     text-align: center;
     color: #5f5f5f;
     font-size: 14px;
     letter-spacing: 1px;
 }
-/* third body section */
 
+/* third body section */
+.bpresent {
+    margin: 0 180px 150px 180px;
+    border: none;
+    padding: 0 0 0 50px;
+    height: 264px;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(255, 99, 2, 0.685), rgba(255, 213, 157, 0.379), rgba(107, 107, 107, 0.156)), url('images/watch.png');
+}
+
+.presentt {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.presentbtn {
+    margin: 15px 0 0 0;
+    max-width: 150px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    color: #fb6e16;
+    font-size: 17px;
+}
+
+.presentbtn:hover {
+    background-color: #f4f4f4;
+    color: #ff7a27;
+}
+
+/* footer section */
+.footer {
+    background-color: black;
+    padding: 100px 200px 0 200px;
+    height: 400px;
+    max-width: 960px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 {
+    width: 550px;
+}
+
+.footer-t {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-pa {color: white;}
+
+.footer-pa1 {color: white;}
+
+.footer2 {
+    width: 350px;
+}
+
+.footer-t1 {color: white;}
+
+.footer-input {color: white;}
+
+.footer-btn {color: white;}
