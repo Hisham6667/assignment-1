@@ -2,13 +2,14 @@
     margin: 0;
     border: none;
     padding: 0;
-    max-width: 1366px;
+    max-width: 1360px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.letterc{
+.letterc {
     color: #ff7a27;
 }
+
 /* header section */
 .header {
     margin: 0;
@@ -35,7 +36,7 @@
 }
 
 .btnh1 {
-    margin: 0 0 0 310px;
+    margin: 0 0 0 300px;
     border-radius: 5px;
     padding: 17px 25px;
     background-color: #ff7a27;
@@ -48,22 +49,16 @@
     color: #ffffff;
 }
 
-/* main body section */
-.mbody {
-    background-color: #ffffff;
-    padding: 0 203px 0 203px;
-}
 
 /* first body section */
 .bpast {
-    margin-bottom: 100px;
+    margin: 0 200px 150px 200px;
     height: 572px;
     width: 960px;
     display: flex;
     justify-content: space-between;
 
 }
-
 
 .bpast1 {
     height: 572px;
@@ -78,26 +73,78 @@
     width: 450px;
     padding-top: 60px;
 }
-.bodyt{
+
+.bodypt {
     font-size: 40px;
     font-weight: 750;
     word-spacing: 10px;
     margin-bottom: 40px;
 }
-.bodypa{
+
+.bodypa {
     margin-bottom: 40px;
     font-size: 14px;
     color: #4d4d4d;
     word-spacing: 5px;
     letter-spacing: 1px;
 }
-.bodypa1{
+
+.bodypa1 {
     margin-bottom: 20px;
     font-size: 14px;
     color: #4d4d4d;
     letter-spacing: 1px;
 }
-#picon{
+
+#picon {
     color: rgb(0, 255, 8);
     margin-right: 5px;
 }
+/* 2nd body section  */
+.bfuture{
+    width: 950px;
+    border: none;
+    padding: 0 200px 0 200px;
+    margin: 0 0 150px 0;
+}
+.bodyft{
+    font-size: 40px;
+    font-weight: 750;
+    word-spacing: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.bodyf1{
+    display: flex;
+    justify-content: space-between;
+}
+.bodyfli{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    padding: 20px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 50px -20px #ffb915;
+    background-color: #ffffff;
+}
+.futureimg {
+    margin: 0 auto;
+    height: 93px;
+    width: 93px;
+}
+.futuret{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.futuret1{
+    margin-top: 15px;
+    text-align: center;
+    color: #5f5f5f;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+/* third body section */
+
